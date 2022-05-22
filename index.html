@@ -1,30 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;o;o;o;o;o;o;o;o;o;o;o;o;o;o;o;o;ol;o.l;o.lol.;ol.ol.ol.ol.0ol.
+<html>
 	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
-
-		<title>Random Quote Generator</title>
-
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<title>I'm Bored, Web Application</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-		<h1>Random Activity Generator</h1>
+				<!-- Header -->
+					<header id="header">
+
+						<h1>Click Your Boredom Away</h1>
+					
 		
 		<!-- <input type="text" name="" value=""> -->
+						<section id="center">
+							<h2 id = "activityName"></h2>
+							<h3 id= "accessibilty"></h3>
+							<h3 id= "price"></h3>
+							<h3 id= "type"></h3>
+							<button id = "button" type="button" name="button">Get Random Activity</button>
 
-		<h2 id = "activityName"></h2>
-		<h3 id= "accessibilty"></h3>
-		<h3 id= "price"></h3>
-		<h3 id= "type"></h3>
-		<button type="button" name="button">Get Random Activity</button>
 
 
+							<script type="text/javascript" src="js/main.js"></script>
+						</section>
+					</header>
 
-		<script type="text/javascript" src="js/main.js"></script>
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Kat M Lane Designs.</span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
