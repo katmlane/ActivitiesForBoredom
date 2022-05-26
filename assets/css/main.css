@@ -1092,6 +1092,12 @@ input, select, textarea {
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
+		#center {
+			/* background: rgba(132, 142, 145, 0.267);
+			border: 4mm ridge rgba(71, 39, 34, 0.904); */
+			font-size: 2rem;
+			margin: 0 15rem;
+		}
 
 		/* BG */
 
