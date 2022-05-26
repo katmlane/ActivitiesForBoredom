@@ -1061,11 +1061,17 @@ input, select, textarea {
 			background-size: 300px auto;
 			width: 1245px;
 		}
+<<<<<<< HEAD
 		#center {
 			/* background: rgba(132, 142, 145, 0.267);
 			border: 4mm ridge rgba(71, 39, 34, 0.904); */
 			font-size: 2rem;
 			margin: 0 15rem;
+=======
+		#center{
+			font-size: 18px;
+			margin: 0;
+>>>>>>> parent of b61774c (improved responsiveness)
 		}
 	/* Header */
 
