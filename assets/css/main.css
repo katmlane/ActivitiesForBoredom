@@ -118,6 +118,9 @@ input, select, textarea {
 		a:hover {
 			border-color: transparent;
 		}
+		#activityName, #accessibilty, #price, #type, #button {
+			padding: 0.5rem 0;
+		}
 
 /* Icon */
 
@@ -730,6 +733,7 @@ input, select, textarea {
 	background: rgba(132, 142, 145, 0.267);
 	border: 4mm ridge rgba(71, 39, 34, 0.904);
 	font-size: 2rem;
+	margin: 0 auto;
 }
 
 #button  {

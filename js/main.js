@@ -9,8 +9,8 @@ function getFetch() {
     .then(function (data) {
       console.log(data);
       document.getElementById("activityName").innerText = data.activity
-      document.getElementById("accessibilty").innerText = ` Accessibility Scale 0-1: ${data.accessibility}`
-      document.getElementById("price").innerText = ` Price Scale 0-1: ${data.price}`
+      document.getElementById("accessibilty").innerText = ` Accessibility Scale 0-10 (least to most): ${data.accessibility *10}`
+      document.getElementById("price").innerText = ` Price Scale 0-10 (least to most): ${data.price * 10}`
       document.getElementById("type").innerText = ` Kind of activity: ${data.type}`
     })
     .catch((err) => {
