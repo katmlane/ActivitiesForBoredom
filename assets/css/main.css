@@ -812,7 +812,6 @@ input, select, textarea {
 
 
 
-
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -1063,8 +1062,8 @@ input, select, textarea {
 			width: 1245px;
 		}
 		#center {
-			background: rgba(132, 142, 145, 0.267);
-			border: 4mm ridge rgba(71, 39, 34, 0.904);
+			/* background: rgba(132, 142, 145, 0.267);
+			border: 4mm ridge rgba(71, 39, 34, 0.904); */
 			font-size: 2rem;
 			margin: 0 15rem;
 		}
