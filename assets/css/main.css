@@ -733,7 +733,7 @@ input, select, textarea {
 	background: rgba(132, 142, 145, 0.267);
 	border: 4mm ridge rgba(71, 39, 34, 0.904);
 	font-size: 2rem;
-	margin: 0 auto;
+	margin: 0 15rem;
 }
 
 #button  {
@@ -977,7 +977,7 @@ input, select, textarea {
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 1245px) {
 
 		/* Basic */
 
@@ -1060,7 +1060,10 @@ input, select, textarea {
 			background-size: 300px auto;
 			width: 900px;
 		}
-
+		#center{
+			font-size: 18px;
+			margin: 0;
+		}
 	/* Header */
 
 		#header h1 {
